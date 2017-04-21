@@ -27,6 +27,9 @@ defmodule TrieTest.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      { :eflame, ~r/.*/, git: "https://github.com/proger/eflame.git", compile: "rebar compile"}
+    ]
   end
+
 end
